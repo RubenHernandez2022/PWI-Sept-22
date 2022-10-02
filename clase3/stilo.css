@@ -1,0 +1,53 @@
+/*selector{propiedades}*/
+
+/*asterisco para class
+#numeral para id*/
+
+/*sitios para colores-->fiatulcolors,colorhunt*/
+
+body{
+    background-color: rgb(32, 4, 58);
+    background-image: url(./imagenes/logo\ minion.webp);
+}
+.unTexto{
+    background-color: rgb(0, 128, 0,0.5);
+    color: white;/*color letras*/
+}
+
+#fondoTitulo{
+    background-color: orangered;
+    color:white;
+    width: 400px;/*ANCHO*/
+    height: 10VH;/*ALTO  VH TOMA LO Q SE VE*/
+    display:block;/*elemento en bloque inline en linea*/
+}
+button{
+    background-color: blue;
+}
+#textoUnico{
+    background-color: red;
+    color:beige;
+}
+#botonColor{
+    background-color: yellow;
+}
+#textoUnico{
+    background-image:url(./imagenes/logo\ minion.webp);
+    height: 100px;
+}
+.unTexto{
+    /*border-color: blue;
+    border-width: 2px;
+    border-style: dotted;*/
+    border:white 2px dotted;
+    /*border simplificado*/
+}
+.paisaje{width: 300px;}
+
+/*
+UNIDADES:
+*/
+
+
+
+

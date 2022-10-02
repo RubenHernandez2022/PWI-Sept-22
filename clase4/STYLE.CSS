@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    font-family: ARIAL;
+    font-weight: 600;
+    font-size: large;
+    text-transform: uppercase; /*todo mayuscula*/
+    text-shadow: 5px 10px white; /*sombras poner coma para varias sombras*/
+    box-shadow: 10px 5px 10px red; /*inset lo pone dentro
+    span{ 
+        blackground-color: red
+}
+.tarjeta
+body{
+
+}
+span{
+      blackground-color: green;
+}

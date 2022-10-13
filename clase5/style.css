@@ -1,34 +1,80 @@
+*{
+    font-size: 20px;
+    font-weight: 600px;
+    
+}
 
-nav{background-color: green;
+nav{list-style: none;
+    background-color: green;
     padding:10px;
-    color: bisque;}
-    h1{
-        text-align: center;
+    color: bisque;
     }
-.tarjeta{
+ul{list-style: none}    
+h1{
+        text-align: center;
+        text-decoration: underline;
+    }
+.principal{
+    width: 600px;
+    height: 700px;
+    grid-gap:20px;
+
+        display:grid;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-rows: repeat(2,320px);
+        grid-template-areas: "tarjeta1 tarjeta2""tarjeta3 tarjeta4";
+        /*flex-direction: row;/*fila=row o columna*/
+        /*justify-content: center;
+        align-items: flex-start;
+        gap:100px;
+        flex-wrap: wrap;*/
+        
+}
+.alinear{
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    color: green;
+}
+
+.tarjeta1{
     
     /*display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;*/
-    margin: 10px;
-    border:5px solid red;
+    /*margin: 10px;*/
     
-    border-radius: 0.5em;
 
-    
+    border:5px solid blue;
+    border-radius: 0.5em;
+    grid-area: tarjeta1;  
 }
-.principal{
-    display:flex;
-    flex-direction: row;/*fila=row o columna*/
-    justify-content: center;
-    align-items: flex-start;
-    gap:100px;
-    flex-wrap: wrap;
-    
-    }
+
+.tarjeta2{border:5px solid red;
+          border-radius: 0.5em;
+          grid-area: tarjeta2;
+
+}
+.tarjeta3{border:5px solid red;
+         border-radius: 0.5em;
+        grid-area: tarjeta3;
+
+}
+.tarjeta4{
+    border:5px solid red;
+    border-radius: 0.5em;
+    grid-area: tarjeta4;
+
+}
+
 .boton-tarjeta{
     
     background-color:rgb(92, 4, 92);
     color:white;
     }
+.instagram{
+    background-color: blue;
+}
